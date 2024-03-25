@@ -15,7 +15,10 @@
 def exercise_1(S):
 
     # TODO: Add up the numbers in S using a for-loop and return the sum.
-
+    total_sum = 0
+    for num in S:
+        total_sum += num
+    return total_sum
     return 
 
 def exercise_2(S):
